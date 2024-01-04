@@ -1,0 +1,93 @@
+   .image {
+      display: none;
+   }
+   
+   body {
+      font-family: 'Roboto', sans-serif;
+      font-size:24px;
+   }
+
+   .header {
+      display: flex;
+      background: #F2F2F2;
+   }
+
+   h1 {
+      color: #20a8b4;
+   }
+
+   .right-align ul {
+      display: flex;
+      text-align: right;
+      justify-content: flex-end;
+      border: none;
+      text-decoration: none;
+      outline: none;
+      font-size: 24px;
+   }
+
+.flex-body {
+   display: flex;
+}
+
+.parent-container {
+   justify-content: flex-end;
+   font-size: 24px;
+ }
+
+ /* Learn more button */
+.flex-container {
+   display: flex;
+   float: left;
+ }
+ 
+   .blue-button {
+      background-color: #20a8b4;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      text-align: left;
+      width: 100%;
+ }
+
+   .highlight {
+      color: #ff5c0f;
+   }
+
+   .hover-button {
+      padding: 12px;
+      color: #000;
+      border: none;
+      text-decoration: none;
+      outline: none;
+   }
+
+   .hover-button:hover{
+      color: #ff5c0f;
+}  
+
+.blue-button:hover{
+   background-color: #ff5c0f;
+}
+@media screen and (min-width: 768px) {
+   .image {
+      min-width: auto;
+      text-align: center;
+      height: auto;
+      display: block;
+   }
+   .blue-button {
+      width: auto;
+ }
+
+ .right-align ul {
+      display: flex;
+      text-align: right;
+      justify-content: flex-end;
+      border: none;
+      text-decoration: none;
+      outline: none;
+      font-size: 24px;
+   }  
+}
